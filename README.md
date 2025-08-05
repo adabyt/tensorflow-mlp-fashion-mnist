@@ -4,7 +4,7 @@ This project uses the [Fashion MNIST dataset](https://github.com/zalandoresearch
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 - **Architecture**: MLP with two hidden layers (default: 128 and 64 neurons, ReLU activation)
 - **Output**: 10-class softmax classifier
@@ -15,7 +15,7 @@ This project uses the [Fashion MNIST dataset](https://github.com/zalandoresearch
 
 ---
 
-## 🧪 Performance (Default settings)
+## Performance (Default settings)
 
 - **Epochs**: 10  
 - **Batch size**: 32  
@@ -26,9 +26,9 @@ This project uses the [Fashion MNIST dataset](https://github.com/zalandoresearch
 
 ---
 
-## 🔬 Experiments & Interpretations
+## Experiments & Interpretations
 
-### 🔁 Changing the Number of Epochs
+### Changing the Number of Epochs
 
 | Epochs | Val Accuracy | Val Loss | Test Accuracy  | Test Loss  |
 |--------|--------------|----------|----------------|------------|
@@ -43,7 +43,7 @@ This project uses the [Fashion MNIST dataset](https://github.com/zalandoresearch
 
 ---
 
-### 🧱 Adjusting the Number of Neurons in Hidden Layers
+### Adjusting the Number of Neurons in Hidden Layers
 
 | Neurons (1st layer) | Val Accuracy | Val Loss | Test Accuracy  | Test Loss  |
 |---------------------|--------------|----------|----------------|------------|
@@ -59,7 +59,7 @@ This project uses the [Fashion MNIST dataset](https://github.com/zalandoresearch
 
 ---
 
-### 📦 Changing the Batch Size
+### Changing the Batch Size
 
 | Batch Size | Val Accuracy | Val Loss | Test Accuracy  | Test Loss  |
 |------------|--------------|----------|----------------|------------|
@@ -75,7 +75,7 @@ This project uses the [Fashion MNIST dataset](https://github.com/zalandoresearch
 ---
 
 
-## 📸 Sample Prediction Output
+## Sample Prediction Output
 ```
 Sample 1: Predicted: Ankle boot, Actual: Ankle boot
 Sample 2: Predicted: Pullover, Actual: Pullover
@@ -86,7 +86,7 @@ Sample 5: Predicted: Shirt, Actual: Shirt
 
 ---
 
-## 📂 Dataset Info
+## Dataset Info
 
 Fashion MNIST is a dataset of Zalando's article images:
 - 60,000 training images
@@ -96,6 +96,6 @@ Fashion MNIST is a dataset of Zalando's article images:
 
 ---
 
-## 🧑‍💻 Author
+## Author's Note
 
 This repo is part of a broader portfolio on learning machine learning and deep learning from the ground up.
